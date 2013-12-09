@@ -31,10 +31,11 @@ published: true
 <h4> Benefits of Jekyll </h4>
 
 <ul>
-  <li>Github pages offers free-hosting and use Jekyll as their default parsing engine </li>
+  <li>It is written in Ruby, but you don't actually need to know Ruby to use it</li>
+  <li>Github pages offers free-hosting and uses Jekyll to generate static web pages </li>
   <li>It's ridiculously simple to setup a development environment</li>
-  <li>Github pages has a bunch of basic templates that you can use for
-    a decent-looking site to start with</li>
+  <li>Github pages has a bunch of basic themes that you can use for
+    a decent-looking place to start</li>
   <li>The official [Jekyll](http://jekyllrb.com/) web site looks great and
     has a ton of documentation</li>
   <li>I was able to quickly find a lot of great examples of cool open-source
@@ -42,6 +43,21 @@ published: true
    they worked on their blogs, like
    [Eric Jones](http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/))</li>
 </ul>
+
+<h4> Postifying your Github page </h4>
+
+<p>The Github pages by default use Jekyll, so getting your basic theme page ready for
+blog posts is really easy:</p>
+<ul>
+  <li>Install Jekyll (and Ruby if you don't have it already) using these [instructions](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll) or
+  the [quickstart](http://jekyllrb.com/docs/quickstart/)<li>
+  <li>Add the additional [folders](http://jekyllrb.com/docs/structure/) to support
+    blog posting</li>
+  <li>Add some [posts](http://jekyllrb.com/docs/posts/) (name format is really important
+  here), and an index to your posts on one of your pages</li>
+</ul>
+<p>Even after including time to browse through the Jekyll documentation, setting up this
+basic blogging structure should only take a tech-savvy person less than an hour</p>
 
 <h4> The way forward </h4>
 
