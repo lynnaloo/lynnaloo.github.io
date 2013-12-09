@@ -1,2 +1,1 @@
-lynnaloo.github.io
-==================
+Linda's Blog about coding and mostly cats
