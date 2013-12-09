@@ -1,1 +1,5 @@
-test test test test
+---
+layout: post
+
+title: Blog introduction
+---
