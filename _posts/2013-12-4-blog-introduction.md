@@ -45,12 +45,11 @@ published: true
 </ul>
 
 <h4> Postifying your Github page </h4>
-
 <p>The Github pages by default use Jekyll, so getting your basic theme page ready for
 blog posts is really easy:</p>
 <ul>
   <li>Install Jekyll (and Ruby if you don't have it already) using these [instructions](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll) or
-  the [quickstart](http://jekyllrb.com/docs/quickstart/)<li>
+  the [quickstart](http://jekyllrb.com/docs/quickstart/)</li>
   <li>Add the additional [folders](http://jekyllrb.com/docs/structure/) to support
     blog posting</li>
   <li>Add some [posts](http://jekyllrb.com/docs/posts/) (name format is really important
