@@ -8,4 +8,4 @@ plugins:     ./_plugins
 future:      true
 markdown:    maruku
 permalink:   date
-exclude:     [node_modules, bower_components]
+exclude:     [node_modules, bower_components, less, bower.json, Gruntfile.js, package.json]
