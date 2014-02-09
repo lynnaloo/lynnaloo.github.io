@@ -71,10 +71,7 @@ published: true
 <h4> Grunts like a Jekyll </h4>
 
 <p>
-  I've found [Grunt](http://gruntjs.com/) to be a really useful tool for running some basic deployment
-  tasks in Javascript. You'll need to be running [Node.js](http://www.nodejs.org) to get started
-  on your local development environment, but then it's as easy as following the steps in the [documentation](http://gruntjs.com/getting-started). Using some of the many Grunt plugins, I was able to pretty easily add tasks to run compile my Less to css and deploy the result to my site. I also added the Jekyll build tasks to my Gruntfile so that I can completely manage the blog through Grunt. As with everything else in the
-  evolution of this project, I plan to add more tasks and explore the power of Grunt.
+  I've found <a href="http://gruntjs.com/">Grunt</a> to be a really useful tool for running some basic deployment tasks in Javascript. You'll need to be running <a href="http://nodejs.org/">Node</a> to get started on your local development environment, but then it's as easy as following the steps in the [documentation](http://gruntjs.com/getting-started). Using some of the many Grunt plugins, I was able to pretty easily add tasks to run compile my Less to css and deploy the result to my site. I also added the Jekyll build tasks to my Gruntfile so that I can completely manage the blog through Grunt. As with everything else in the evolution of this project, I plan to add more tasks and explore the power of Grunt.
 </p>
 
 <h4> The way forward </h4>
