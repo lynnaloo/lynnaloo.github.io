@@ -37,7 +37,7 @@ module.exports = function(grunt) {
       server : {
         server: true,
         server_port: 4000,
-        exclude: ['node_modules']
+        exclude: ['node_modules', 'bower_components']
       },
       prod: {
         dest: './_site'

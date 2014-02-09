@@ -47,8 +47,12 @@ published: true
 </ul>
 
 <h4> Postifying your Github page </h4>
-<p>The Github pages by default use Jekyll, so getting your basic theme page ready for
-blog posts is really easy:</p>
+
+<p>
+  The Github pages by default uses Jekyll, so getting your basic theme page ready for
+  blog posts is really easy:
+</p>
+
 <ul>
   <li>Install Jekyll (and Ruby if you don't have it already) using these
   <a href="https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll">
@@ -58,13 +62,31 @@ blog posts is really easy:</p>
     blog posting</li>
   <li>Add some <a href="http://jekyllrb.com/docs/posts/">posts</a> (name format is really important here), and an index to your posts on one of your pages</li>
 </ul>
-<p>Even after including time to browse through the Jekyll documentation, setting up this
-basic blogging structure should only take a tech-savvy person less than an hour</p>
+
+<p>
+  Even after including time to browse through the Jekyll documentation, setting up this
+  basic blogging structure should only take a tech-savvy person less than an hour.
+</p>
+
+<h4> Grunts like a Jekyll </h4>
+
+<p>
+  I've found [Grunt](http://gruntjs.com/) to be a really useful tool for running some basic deployment
+  tasks in Javascript. You'll need to be running [Node.js](http://www.nodejs.org) to get started
+  on your local development environment, but then it's as easy as following the steps in the [documentation](http://gruntjs.com/getting-started). Using some of the many Grunt plugins, I was able to pretty easily add tasks to run compile my Less to css and deploy the result to my site. I also added the Jekyll build tasks to my Gruntfile so that I can completely manage the blog through Grunt. As with everything else in the
+  evolution of this project, I plan to add more tasks and explore the power of Grunt.
+</p>
 
 <h4> The way forward </h4>
 
-<p>I've been exploring a lot of frameworks and blogs using a hybrid of Jekyll and
-  <a href="http://getbootstrap.com/">Twitter Bootstrap</a>, but to start I just created the most basic functioning blog that doesn't look awful. My plan is to first clean up the default generated html/css and separate it into templates, then to manually integrate the latest version of Bootstrap, and finally add some personality in the way of code and graphics. Those three steps will likely just be the first phase of an ongoing project to keep making this site better with newer and better tools. It may also just be the temporary tinkering with Jekyll and may be re-written in a few months.
+<p>
+  As far as the look and feel of the blog, my very non-ambitious plan is to incorporate
+  <a href="http://getbootstrap.com/">Twitter Bootstrap</a> into Jekyll templates. However, to get this
+  started, I just created the most basic functioning blog that doesn't look awful.
+
+  The very basic scaffolding is in place for npm and bower package management, and grunt tasks for Less compilation and some other cleanup. From this point, I've got to convert the css to Less, integrate Bootstrap with Bower, and finally add some personality in the way of code and graphics.
+
+  This is likely just be the first phase of an ongoing project to keep improving this blog with newer and better tools that I'm trying out. It may also just be the temporary tinkering with Jekyll and may be re-written in a few months.
 </p>
 
 <p>See future posts for updates on the journey...</p>
