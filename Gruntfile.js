@@ -33,6 +33,16 @@ module.exports = function(grunt) {
           command: "cp css/screen.css _site/css/screen.css"
       }
     },
+    jekyll: {
+      server : {
+        server: true,
+        server_port: 4000,
+        exclude: ['node_modules']
+      },
+      prod: {
+        dest: './_site'
+      }
+    },
     watch: {
       files: ['<%= jshint.files %>'],
       tasks: ['jshint'],
@@ -51,11 +61,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks("grunt-shell");
+  grunt.loadNpmTasks('grunt-jekyll');
 
   grunt.registerTask('dev', ['jshint', 'less']);
 
   grunt.registerTask('default', 'Default Task', function () {
     grunt.log.writeln('Running jshint and less tasks');
-    grunt.task.run(['jshint', 'less']);
+    grunt.task.run(['jshint', 'less', 'jekyll:server']);
   });
 };
