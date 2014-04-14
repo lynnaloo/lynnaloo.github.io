@@ -26,5 +26,5 @@ published: true
 </p>
 
 <p>
-  More information on <a href="http://docs.vagrantup.com/v2/getting-started/index.html">getting started</a> with Vagrant, or <a href="http://docs.vagrantup.com/v2/why-vagrant">why Vagrant</a> would be a good solution for you, there is a wealth of documentation available on their website. If you would like to try the Vagrant setup that I use to create the xTuple virtual development environment, you can start <a href="http://www.gitub.com/lynnaloo/xtuple-vagrant">here</a>.
+  More information on <a href="http://docs.vagrantup.com/v2/getting-started/index.html">getting started</a> with Vagrant, or <a href="http://docs.vagrantup.com/v2/why-vagrant">why Vagrant</a> would be a good solution for you, there is a wealth of documentation available on their website. If you would like to try the Vagrant setup that I use to create the xTuple virtual development environment, you can start <a href="http://www.github.com/lynnaloo/xtuple-vagrant">here</a>.
 </p>
